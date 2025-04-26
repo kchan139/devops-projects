@@ -1,0 +1,28 @@
+name: Deploy to GitHub Pages
+
+on:
+  push: 
+    branches: ['main']
+    paths: ['GitHub Pages Deployment/index.html']
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container:
+      image: catthehacker/ubuntu:act-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup page
+        uses: actions/configure-pages@v5
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'GitHub Pages Deployment'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        id: deployment

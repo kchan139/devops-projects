@@ -6,3 +6,4 @@ This repository provides solutions for DevOps projects listed on [roadmap.sh](ht
 2. [**Log Archive Tool**](https://roadmap.sh/projects/log-archive-tool)
 3. [**Basic Dockerfile**](https://roadmap.sh/projects/basic-dockerfile)
 4. [**Nginx Log Analyzer**](https://roadmap.sh/projects/nginx-log-analyser)
+5. [**GitHub Pages Deployment**](https://roadmap.sh/projects/github-actions-deployment-workflow)
