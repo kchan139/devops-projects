@@ -7,3 +7,4 @@ This repository provides solutions for DevOps projects listed on [roadmap.sh](ht
 3. [**Basic Dockerfile**](https://roadmap.sh/projects/basic-dockerfile)
 4. [**Nginx Log Analyzer**](https://roadmap.sh/projects/nginx-log-analyser)
 5. [**GitHub Pages Deployment**](https://roadmap.sh/projects/github-actions-deployment-workflow). [**Live Preview**](https://kchan139.github.io/devops-projects/)
+6. [**SSH Remote Server Setup**](https://roadmap.sh/projects/ssh-remote-server-setup)
