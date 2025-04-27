@@ -1,8 +1,6 @@
 # basic-dockerfile
 A basic Dockerfile to create a Docker image.
 
-https://roadmap.sh/projects/basic-dockerfile
-
 To build and run this:
 
 1.  Build the Docker image:
@@ -20,3 +18,5 @@ To build and run this:
     docker run hello <name>
     ```
     Output: `Hello, <name>`
+    
+https://roadmap.sh/projects/basic-dockerfile

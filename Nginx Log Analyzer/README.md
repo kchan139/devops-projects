@@ -6,5 +6,6 @@ https://roadmap.sh/projects/nginx-log-analyser
 
 Usage:
 ```bash
+chmod +x analyze_nginx_log.sh
 ./analyze_nginx_log.sh test.txt
 ```
